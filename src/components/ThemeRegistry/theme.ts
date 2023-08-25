@@ -25,6 +25,23 @@ const theme = createTheme({
         }),
       },
     },
+    MuiButton: {
+      defaultProps: {
+        size: 'small'
+      }
+    },
+    MuiMenuItem: {
+      defaultProps: {
+        dense: true,
+        sx:
+        {
+          background: '#fff !important',
+          '&:hover': {
+            background: 'rgba(0,0,0, 0.10) !important',
+          },
+        }
+      },
+    }
   },
 });
 
