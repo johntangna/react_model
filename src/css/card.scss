@@ -1,0 +1,22 @@
+.MuiCardHeader-title {
+  font-size: 15px !important;
+  font-weight: 900 !important;
+  margin-bottom: 10px !important;
+}
+
+.MuiCardHeader-subheader {
+  font-size: 12px !important
+}
+
+.MuiCardHeader-action {
+  color: #999;
+  font-weight: 600;
+  cursor: pointer;
+  margin-right: 0 !important;
+}
+
+.MuiCardHeader-action, .MuiCardHeader-subheader, .MuiCardHeader-title {
+  &:hover {
+    color: #ED6C02;
+  }
+}

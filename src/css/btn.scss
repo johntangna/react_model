@@ -1,0 +1,30 @@
+.header {
+  button {
+    font-size: 12px !important;
+    &:hover {
+      color: #f44336 !important;
+    }
+  }
+  &:hover {
+    .helpcenter {
+      &::after {
+        border-color: #f44336 transparent transparent transparent !important;
+      }
+      .helpcentericon {
+        color: #f44336 !important;
+      }
+      button {
+        color: #f44336 !important;
+      }
+    }
+  }
+}
+.helpcenter {
+  &::after {
+    content: '';
+    border-width: 6px;
+    border-color: #fff transparent transparent transparent;
+    vertical-align: text-bottom;
+    display: inline-block;
+  }
+}

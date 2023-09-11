@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "clear": "rimraf node_modules",
     "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest"
   },
   "dependencies": {
@@ -15,6 +16,7 @@
     "@emotion/styled": "^11.11.0",
     "@mui/icons-material": "latest",
     "@mui/material": "^5.14.4",
+    "amfe-flexible": "^2.2.1",
     "next": "13.x",
     "react": "18.x",
     "react-dom": "18.x",
